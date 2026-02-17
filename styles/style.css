@@ -320,7 +320,7 @@
   opacity: 0;
 }
 
-@media (width <= 375px) {
+@media (width <= 376px) {
   .content-section {
     inline-size: 100%;
     margin-inline: 0;

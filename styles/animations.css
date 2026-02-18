@@ -11,6 +11,9 @@
 */
 .like-icon {
   display: block;
+}
+
+.like-icon .heart {
   transform-origin: center;
 }
 
@@ -43,10 +46,11 @@
   transition-delay: 0.05s;
 }
 
-.card__icon-button:active .like-icon .core,
-.card__icon-button:active .like-icon .main-body {
+.like-icon:active .core,
+.like-icon:active .main-body {
   fill: var(--animation-fill-color);
 }
+
 
 .like-icon.is-liked .core,
 .like-icon.is-liked .main-body {

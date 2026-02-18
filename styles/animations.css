@@ -51,7 +51,6 @@
   fill: var(--animation-fill-color);
 }
 
-
 .like-icon.is-liked .core,
 .like-icon.is-liked .main-body {
   fill: var(--animation-fill-color);

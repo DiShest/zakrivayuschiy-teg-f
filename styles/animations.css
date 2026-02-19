@@ -46,8 +46,8 @@
   transition-delay: 0.05s;
 }
 
-.like-icon:active .core,
-.like-icon:active .main-body {
+.card__icon-button:active .like-icon:not(.is-liked) .core,
+.card__icon-button:active .like-icon:not(.is-liked) .main-body {
   fill: var(--animation-fill-color);
 }
 

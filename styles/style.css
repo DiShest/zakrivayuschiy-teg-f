@@ -287,7 +287,7 @@
   text-transform: uppercase;
 }
 
-@media (width <= 376px) {
+@media (width <= 400px) {
   .content-section {
     inline-size: 100%;
     margin-inline: 0;
